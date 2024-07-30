@@ -23,7 +23,8 @@ This repository and tool contents are for Japanese only.
 - Windows 向け
 
 `Microsoft Visual Studio Tools for Office (VSTO)`コンポーネント導入済みの最新の Visual Studio でビルドします。  
-ソリューションにはアドイン用とインストーラ用が含まれます。
+ソリューションにはアドイン用とインストーラ用が含まれます。  
+インストーラ作成には[Visual Studio Installer Projects 拡張機能](https://learn.microsoft.com/ja-jp/visualstudio/deployment/installer-projects-net-core?view=vs-2022)を使用します。
 
 ## License
 
