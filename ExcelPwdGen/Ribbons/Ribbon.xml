@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabAddIns">
+				<group id="PSMainGroup" label="ExcelPwdGen">
+					<button id="SaveBtn" onAction="SaveBtn_Click"  label="保存" showImage="true" size="normal" imageMso="FileSave" supertip="ワークブックを保存または上書き保存します" />
+					<button id="SaveAsBtn" onAction="SaveAsBtn_Click" label="別名で保存"  showImage="true" size="normal" imageMso="FileSaveAs" supertip="ワークブックを別名で保存します" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
